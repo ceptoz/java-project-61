@@ -8,11 +8,11 @@ public class App {
         String[] menu = {"1 - Greet", "2 - Even", "3 - Calc", "4 - GCD", "5 - Progression", "6 - Prime", "0 - Exit"};
         int userOption;
 
-            System.out.println("Please enter the game number and press Enter.");
-            for (String option : menu) {
-                System.out.println(option);
-            }
-            userOption = enterAnOptionNumber();
-            optionStart(userOption);
+        System.out.println("Please enter the game number and press Enter.");
+        for (String option : menu) {
+            System.out.println(option);
+        }
+        userOption = enterAnOptionNumber();
+        optionStart(userOption);
     }
 }
