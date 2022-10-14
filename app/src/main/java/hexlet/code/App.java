@@ -6,9 +6,9 @@ import static hexlet.code.Engine.optionStart;
 public class App {
     public static void main(String[] args) {
         String[] menu = {"1 - Greet", "2 - Even", "3 - Calc", "4 - GCD", "5 - Progression", "6 - Prime", "0 - Exit"};
-        int userOption = 1;
+        int userOption = 2;
 
-        while (userOption != 0) {
+        while (userOption > 1) {
             System.out.println("Please enter the game number and press Enter.");
             for (String option : menu) {
                 System.out.println(option);
